@@ -1,0 +1,29 @@
+ 1  clear
+    2  pwd
+    3  git clone https://github.com/NarasimhamMantha/Demo.git TEST2
+    4  dir
+    5  cd TEST2/
+    6  dir
+    7  ll
+    8  git status
+    9  git branch
+   10  echo "test3" > t3.txt
+   11  git add t3.txt
+   12  ls -l
+   13  git commit -a -m "test3"
+   14  git status
+   15  git push
+   16  git remote -v
+   17  git checkout -b Test4
+   18  git branch
+   19  git merge master
+   20  git status
+   21  git push
+   22  git push --set-upstream origin Test4
+   23  git status
+   24  history
+   25  git branch
+   26  git rm t3.txt
+   27  git commit -m "deleted"
+   28  git push --set-upstream origin Test4
+
