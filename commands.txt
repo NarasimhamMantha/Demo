@@ -26,4 +26,6 @@
    26  git rm t3.txt
    27  git commit -m "deleted"
    28  git push --set-upstream origin Test4
-
+git remote add origin <link of your central repository>
+git pull origin master
+git pull origin <branch-name>
