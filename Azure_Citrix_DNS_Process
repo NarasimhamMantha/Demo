@@ -1,0 +1,46 @@
+
+    
+https://jira.platform.mnscorp.net/browse/NCS-343
+
+10.126.35.200   int-myalp.dotcom.apps.mnscorpcate.net
+
+10.126.35.200  int-myaorder.dotcom.apps.mnscorpcate.net
+
+10.126.35.200   int-myasignup.dotcom.apps.mnscorpcate.net
+ 
+10.126.35.200   int-myalp.dotcom.apps.mnscorpcate.net
+
+10.126.35.200  int-myaorder.dotcom.apps.mnscorpcate.net
+
+10.126.35.200   int-myasignup.dotcom.apps.mnscorpcate.net
+
+
+10.126.35.200   int-cfto.dotcom.apps.mnscorpcate.net
+ 
+
+https://jira.platform.mnscorp.net/browse/NCS-274
+
+<Public IP>  int-myalp.dotcom.apps.mnscorpcate.net
+<Public IP>  int-myaorder.dotcom.apps.mnscorpcate.net
+<Public IP>    int-myasignup.dotcom.apps.mnscorpcate.net
+<Public IP>    int-cfto.dotcom.apps.mnscorpcate.net
+
+    
+https://jira.platform.mnscorp.net/browse/NCS-276
+
+1 - Get  Digicert certificates
+2 - Public IP and create Public DNS in Azure DNS - Jira request
+3- CR for Firewall changes to allow DNS to accessed from AKamai --
+4 - Install cert in PA - Jira
+ 
+
+    
+https://jira.platform.mnscorp.net/browse/NCS-276
+
+1 - Get  Digicert certificates
+2 - Public IP and create Public DNS in Azure DNS - Jira request
+3- CR to allow Ingress from  CItrix (via Firewall)  - Source is Citrix IPs/ Dest Cluster  SUbnet
+4- CR for Firewall changes to allow DNS to accessed from AKamai -- SOurce - Akamai / Dest will Cluster SUbnet
+5 - Install cert in PA - Jira
+
+
