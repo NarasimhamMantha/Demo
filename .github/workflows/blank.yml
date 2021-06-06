@@ -43,7 +43,7 @@ jobs:
           ls -l
           date
           git status
-          git add *.txt
+          git add date.txt
           git config --global user.email "narasimham.mantha@tcs.com"
           git config --global user.name "NarasimhamManth
           git commit -m "Auto Comimit"
