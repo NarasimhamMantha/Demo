@@ -43,4 +43,6 @@ jobs:
           ls -l
           date
           git status
+          git add . 
+          git commit -m "Auto Comimit"
           git push origin
