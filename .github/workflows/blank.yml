@@ -42,3 +42,5 @@ jobs:
           date > date.txt
           ls -l
           date
+          git status
+          git push origin
