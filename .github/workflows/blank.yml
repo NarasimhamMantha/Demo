@@ -43,8 +43,8 @@ jobs:
           ls -l
           date
           git status
-          git add date.txt
+          git add *
           git config --global user.email "narasimham.mantha@tcs.com"
           git config --global user.name "NarasimhamManth
-          git commit -m "Auto Comimit"
+          git commit -a -m "Auto Comimit"
           git push origin
