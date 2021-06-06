@@ -39,3 +39,4 @@ jobs:
           whoami
           uname -a
           hostname
+          date > date.txt
