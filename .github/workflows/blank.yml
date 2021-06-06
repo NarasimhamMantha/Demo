@@ -40,3 +40,5 @@ jobs:
           uname -a
           hostname
           date > date.txt
+          ls -l
+          date
